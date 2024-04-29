@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.tecla{
+    height: 200px;
+    background-color: #ddd;
+    border: solid black;
+}
+
+.uno {
+    margin-top: 2%;
+    background-color: #FF4136;
+}
+
+.dos {
+    margin-top: 2%;
+    background-color: #0074D9;
+}
+
+.tres {
+    background-color: #2ECC40;
+}
+
+.cuatro {
+    background-color: #FF851B;
+}
+
+
